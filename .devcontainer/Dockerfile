@@ -1,5 +1,5 @@
 # Use official Python 3.11 image with development tools
-FROM mcr.microsoft.com/devcontainers/python:3.11-bullseye
+FROM mcr.microsoft.com/devcontainers/python:3.11-bookworm
 
 # Set environment variables
 ENV DEBIAN_FRONTEND=noninteractive
@@ -42,9 +42,9 @@ RUN pip install --no-cache-dir \
 # Set up Jupyter configuration
 USER vscode
 RUN mkdir -p /home/vscode/.jupyter && \
-    echo "c.NotebookApp.ip = '0.0.0.0'" >> /home/vscode/.jupyter/jupyter_notebook_config.py && \
-    echo "c.NotebookApp.allow_root = False" >> /home/vscode/.jupyter/jupyter_notebook_config.py && \
-    echo "c.NotebookApp.open_browser = False" >> /home/vscode/.jupyter/jupyter_notebook_config.py
+    echo "c.ServerApp.ip = '0.0.0.0'" >> /home/vscode/.jupyter/jupyter_notebook_config.py && \
+    echo "c.ServerApp.allow_root = False" >> /home/vscode/.jupyter/jupyter_notebook_config.py && \
+    echo "c.ServerApp.open_browser = False" >> /home/vscode/.jupyter/jupyter_notebook_config.py
 
 # Switch back to root for any final setup
 USER root

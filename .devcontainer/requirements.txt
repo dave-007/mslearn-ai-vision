@@ -15,7 +15,7 @@ azure-cognitiveservices-vision-face>=0.6.0
 azure-core>=1.29.0
 azure-identity>=1.14.0
 
-# Azure OpenAI and OpenAI
+# OpenAI (supports both OpenAI and Azure OpenAI services)
 openai>=1.0.0
 
 # Image processing and visualization
