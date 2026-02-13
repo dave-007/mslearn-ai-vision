@@ -1,3 +1,35 @@
 obj
 bin
 *.sln
+
+# Jupyter Notebook outputs
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+labenv/
+venv/
+env/
+ENV/
+
+# Generated images and outputs
+objects.jpg
+people.jpg
+lines.jpg
+words.jpg
+detected_faces.jpg
+image_*.png
+images/
+
+# Environment files (keep template, ignore actual credentials)
+# .env files are already tracked, so we don't ignore them here
+
+# OS files
+.DS_Store
+Thumbs.db
