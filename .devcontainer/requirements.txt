@@ -1,0 +1,44 @@
+# Core Python packages
+python-dotenv==1.0.0
+
+# Jupyter and interactive tools
+jupyter>=1.0.0
+jupyterlab>=4.0.0
+ipykernel>=6.25.0
+ipywidgets>=8.1.0
+notebook>=7.0.0
+
+# Azure AI Vision SDK and services
+azure-ai-vision-imageanalysis==1.0.0
+azure-cognitiveservices-vision-customvision>=3.1.0
+azure-cognitiveservices-vision-face>=0.6.0
+azure-core>=1.29.0
+azure-identity>=1.14.0
+
+# OpenAI (supports both OpenAI and Azure OpenAI services)
+openai>=1.0.0
+
+# Image processing and visualization
+matplotlib>=3.7.0
+pillow>=10.0.0
+opencv-python>=4.8.0
+
+# Data handling
+numpy>=1.24.0
+pandas>=2.0.0
+
+# HTTP requests
+requests>=2.31.0
+
+# Code quality and development tools
+pylint>=2.17.0
+autopep8>=2.0.0
+black>=23.0.0
+flake8>=6.0.0
+
+# Azure CLI (Python SDK)
+azure-cli-core>=2.50.0
+
+# Additional useful packages for Azure development
+azure-storage-blob>=12.17.0
+azure-keyvault-secrets>=4.7.0

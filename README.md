@@ -14,6 +14,27 @@ All labs are now available as **interactive Jupyter notebooks** with comprehensi
 
 ### Getting Started with Notebooks
 
+#### 🐳 Quick Start with Devcontainer (Recommended)
+
+The easiest way to get started is using our pre-configured development container that includes all dependencies:
+
+**Option 1: GitHub Codespaces** (Cloud-based, no local setup required)
+1. Click the **Code** button → **Codespaces** tab → **Create codespace**
+2. Wait for the container to build (2-5 minutes first time)
+3. Start working with notebooks immediately!
+
+**Option 2: Local Docker Container** (Local development with VS Code)
+1. Install [Docker Desktop](https://www.docker.com/products/docker-desktop) and [VS Code](https://code.visualstudio.com/)
+2. Install the [Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+3. Clone this repository and open in VS Code
+4. Click "Reopen in Container" when prompted
+
+📖 **[Full Devcontainer Documentation](.devcontainer/README.md)** - Detailed setup instructions and troubleshooting
+
+#### 💻 Manual Setup (Alternative)
+
+If you prefer to set up your environment manually:
+
 #### Prerequisites
 - Python 3.8 or later
 - Jupyter Notebook or JupyterLab
